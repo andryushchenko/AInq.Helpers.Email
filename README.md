@@ -6,7 +6,9 @@
 
 Simple helpers for Email
 
-
+- Get emails form string source
+- Check if string is correct email 
+- Get specific email address parts
 
 ## Documentation
 
