@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AInq.Helpers.Email</name>
+    </assembly>
+    <members>
+        <member name="T:AInq.Helpers.Email.EmailHelper">
+            <summary> Email <see cref="T:System.String"/> extension </summary>
+        </member>
+    </members>
+</doc>
