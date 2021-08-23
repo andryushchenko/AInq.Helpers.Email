@@ -25,8 +25,8 @@ public static class EmailHelper
 {
     private static readonly Regex Pattern =
         new(
-            @"\s*(?<email>(?<user>\w[\w!#$%&'*/=?`{|}~^-]*(?:\.[\w!#$%&'*/=?`{|}~^-]+)*)(?<marker>\+[\w!#$%&'*/=?`{|}~^+\.-]*)?@(?<domain>(?:[a-z0-9-]+\.)+[a-z]{2,}))\s*"
-          , RegexOptions.IgnoreCase | RegexOptions.Compiled);
+            @"\s*(?<email>(?<user>\w[\w!#$%&'*/=?`{|}~^-]*(?:\.[\w!#$%&'*/=?`{|}~^-]+)*)(?<marker>\+[\w!#$%&'*/=?`{|}~^+\.-]*)?@(?<domain>(?:[a-z0-9-]+\.)+[a-z]{2,}))\s*",
+            RegexOptions.IgnoreCase | RegexOptions.Compiled);
 
     /// <summary> Check is source string contains correct email </summary>
     /// <param name="source"> Source </param>
